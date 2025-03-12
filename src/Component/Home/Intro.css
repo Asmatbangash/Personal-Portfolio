@@ -1,0 +1,17 @@
+.resume-btn {
+    padding: 0.8em 1.7em;
+    display: block;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: 0.4s ease-in-out;
+  }
+  
+  .resume-btn:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+  }
+  
