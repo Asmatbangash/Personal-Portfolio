@@ -1,59 +1,24 @@
 import React from "react";
 import Linkdin from "../SocailIcon.jsx/Linkdin";
+import Socailicon from "../SocailIcon.jsx/Socailicon";
 
 function Contact() {
   return (
-    <div className="container col-xl-10 col-xxl-8 px-4 py-5">
-      <div className="row align-items-center g-lg-5 py-5">
-        <div className="col-lg-7 text-center text-lg-start">
-          <h1 className="display-4 fw-bold lh-1 text mb-3">
-            Contact Us
-          </h1>
-          <p className="col-lg-10 fs-4">
-            Feel free to reach out if you have any questions, collaboration
-            ideas, or just want to connect. I'd love to hear from you! You can
-            get in touch via:
-          </p>
-          <ul>
-            <li>Email : bangashasmat2@gmail.com </li>
-            <li>
-              WhatsApp: +92 335 6976877
-            </li>
-          </ul>
-        </div>
-        <div className="col-md-10 mx-auto col-lg-5">
-          <form className="p-4 p-md-5 border rounded-3 bg-body-tertiary needs-validation text-dark" novalidate>
-            <div className="form-floating mb-3">
-              <input
-                type="text"
-                className="form-control"
-                id="name"
-                placeholder="enter full name"
-                required
-              />
-              <label for="name">Full Name</label>
-            </div>
-            <div className="form-floating mb-3">
-              <input
-                type="email"
-                className="form-control"
-                id="floatingInput"
-                placeholder="name@example.com"
-                required
-              />
-              <label for="floatingInput">Email address</label>
-            </div>
-            <div className="form-floating mb-3">
-              <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
-              <label for="floatingInput">write any querry</label>
-            </div>
-            <button className="w-100 btn btn-lg btn-primary" type="submit">
-              submit
-            </button>
-          </form>
-        </div>
-      </div>
+    <>
+    <div className="container d-flex justify-content-center align-items-center  flex-column mt-5">
+       
+    <h1 className="mt-5">Contact Me!</h1>
+    <p>Let's Work Together</p>
+    <a href="" className="text-decoration-none"><i className="fa-solid fa-paper-plane icon mx-2 "></i>bangashasmat@gmail.com</a>
+    <a href="" className="text-decoration-none"><i className="fa-solid fa-phone  icon mx-2 "></i>0335 6976877</a>
+    <div className="mt-5">
+    <a href="" className="fa-brands fa-facebook icon mx-2 text-decoration-none"></a>
+    <a href="" className="fa-brands fa-twitter icon mx-2 text-decoration-none"></a>
+    <a href="" className="fa-brands fa-linkedin icon mx-2 text-decoration-none"></a>
+    <a href="" className="fa-brands fa-github icon mx-2 text-decoration-none"></a>
     </div>
+  </div>
+  </>
   );
 }
 
